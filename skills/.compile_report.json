@@ -1,0 +1,237 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "quantumoptics-jl",
+  "evidence": {
+    "core_skills": [
+      "quantumoptics-jl-license",
+      "quantumoptics-jl-inputs-and-modeling",
+      "quantumoptics-jl-build-and-install"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/quantumoptics-jl-license.md",
+      "skills/.evidence/quantumoptics-jl-inputs-and-modeling.md",
+      "skills/.evidence/quantumoptics-jl-build-and-install.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/quantumoptics-jl-build-and-install/SKILL.md",
+        "skills/quantumoptics-jl-build-and-install/references/doc_map.md",
+        "skills/quantumoptics-jl-build-and-install/references/source_map.md",
+        "skills/quantumoptics-jl-index/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantumoptics-jl-license/SKILL.md",
+        "skills/quantumoptics-jl-license/references/doc_map.md",
+        "skills/quantumoptics-jl-license/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/quantumoptics-jl-build-and-install/SKILL.md",
+        "skills/quantumoptics-jl-build-and-install/references/doc_map.md",
+        "skills/quantumoptics-jl-build-and-install/references/source_map.md",
+        "skills/quantumoptics-jl-index/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantumoptics-jl-license/SKILL.md",
+        "skills/quantumoptics-jl-license/references/doc_map.md",
+        "skills/quantumoptics-jl-license/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/quantumoptics-jl-build-and-install/SKILL.md",
+        "skills/quantumoptics-jl-build-and-install/references/doc_map.md",
+        "skills/quantumoptics-jl-build-and-install/references/source_map.md",
+        "skills/quantumoptics-jl-index/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantumoptics-jl-license/SKILL.md",
+        "skills/quantumoptics-jl-license/references/doc_map.md",
+        "skills/quantumoptics-jl-license/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/quantumoptics-jl-build-and-install/SKILL.md",
+        "skills/quantumoptics-jl-build-and-install/references/doc_map.md",
+        "skills/quantumoptics-jl-build-and-install/references/source_map.md",
+        "skills/quantumoptics-jl-index/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/SKILL.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/doc_map.md",
+        "skills/quantumoptics-jl-inputs-and-modeling/references/source_map.md",
+        "skills/quantumoptics-jl-license/SKILL.md",
+        "skills/quantumoptics-jl-license/references/doc_map.md",
+        "skills/quantumoptics-jl-license/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "."
+    ],
+    "docs_only": false,
+    "notes": [
+      "No dedicated in-repo docs/ directory; local docs are top-level markdown files.",
+      "README points to external canonical docs/examples repositories under qojulia.",
+      "Generator setup patched for Python f-string validity and Julia .jl source discovery."
+    ],
+    "package_name": "quantumoptics-jl",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "benchmark"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantumoptics-jl-quantumoptics-jl",
+  "run_id": "compile_20260304T161447973310Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "quantumoptics-jl-build-and-install",
+      "quantumoptics-jl-index",
+      "quantumoptics-jl-inputs-and-modeling",
+      "quantumoptics-jl-license"
+    ],
+    "core_skill_ids": [
+      "quantumoptics-jl-license",
+      "quantumoptics-jl-inputs-and-modeling",
+      "quantumoptics-jl-build-and-install"
+    ],
+    "deferred_gaps": [
+      "Canonical user documentation and tutorial corpus are external (qojulia documentation/examples repos), not vendored in this checkout.",
+      "In-repo tutorial coverage is limited to benchmark scripts; richer examples require external source ingestion in a later cycle."
+    ],
+    "goal": "Run passes 2/3 by generating a deterministic baseline and then enriching high-impact workflows for this source-and-test-heavy package.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "docs-first routing with clear escalation into src and test",
+          "entry points for core time-evolution/stochastic modules",
+          "explicit note that canonical docs/examples are external"
+        ],
+        "reason": "Central router is required to handle sparse in-repo docs and route quickly into source/test-backed skills.",
+        "skill_id": "quantumoptics-jl-index",
+        "source_hints": [
+          "README.md",
+          "src/QuantumOptics.jl",
+          "test/runtests.jl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Schroedinger/master/MCWF workflow routing",
+          "time-dependent operators and correlation utilities",
+          "mapping of user intents to existing timeevolution tests"
+        ],
+        "reason": "Time evolution APIs are central usage paths and have broad test coverage.",
+        "skill_id": "quantumoptics-jl-license",
+        "source_hints": [
+          "src/master.jl",
+          "src/schroedinger.jl",
+          "src/mcwf.jl",
+          "src/timeevolution_base.jl",
+          "src/time_dependent_operators.jl",
+          "test/test_timeevolution_*.jl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "steadystate and iterative solver usage",
+          "spectral/phasespace analysis entry points",
+          "cross-links to validation tests"
+        ],
+        "reason": "Steady-state and analysis modules are common downstream workflows and need cohesive routing.",
+        "skill_id": "quantumoptics-jl-inputs-and-modeling",
+        "source_hints": [
+          "src/steadystate.jl",
+          "src/steadystate_iterative.jl",
+          "src/spectralanalysis.jl",
+          "src/phasespace.jl",
+          "test/test_steadystate.jl",
+          "test/test_spectralanalysis.jl",
+          "test/test_phasespace.jl"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "quantumoptics-jl-license",
+      "quantumoptics-jl-inputs-and-modeling",
+      "quantumoptics-jl-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantumoptics-jl-quantumoptics-jl/skills/quantumoptics-jl-license/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantumoptics-jl-quantumoptics-jl/skills/quantumoptics-jl-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantumoptics-jl-quantumoptics-jl/skills/quantumoptics-jl-build-and-install/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/quantumoptics-jl-quantumoptics-jl/skills/quantumoptics-jl-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "quantumoptics-jl-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "quantumoptics-jl-index",
+      "quantumoptics-jl-license",
+      "quantumoptics-jl-inputs-and-modeling"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 4,
+    "source_inventory": {},
+    "source_links_total": 19,
+    "topic_skills": 3,
+    "warnings": []
+  }
+}
